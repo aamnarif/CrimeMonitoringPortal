@@ -1,0 +1,62 @@
+.recentCrimesHappened {
+  position: relative;
+  text-transform: capitalize;
+}
+.stayInformedAnd {
+  width: 467px;
+  position: relative;
+  font-size: var(--font-size-base);
+  text-align: left;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 27px;
+  flex-shrink: 0;
+}
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.viewAll {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  text-decoration: underline;
+  font-weight: 600;
+  color: var(--color-darkcyan-100);
+  text-align: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text {
+  width: 1296px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.cards,
+.jobs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cards {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.jobs {
+  width: 1440px;
+  padding: var(--padding-41xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--default-black);
+  font-family: var(--h1-30px-sb);
+}

@@ -1,0 +1,114 @@
+.mapPinIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.location {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+}
+.krachikarachi {
+  position: relative;
+  color: var(--gray-600);
+}
+.jobOverwiewInner,
+.locationParent,
+.mapPinParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.locationParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xs);
+}
+.jobOverwiewInner,
+.mapPinParent {
+  align-self: stretch;
+}
+.mapPinParent {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.jobOverwiewInner {
+  flex-direction: column;
+}
+.mapPinIcon1,
+.mapPinWrapper {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mapPinIcon1 {
+  width: 40px;
+  position: absolute;
+  margin: 0 !important;
+  top: 93px;
+  left: 165px;
+  height: 40px;
+  z-index: 0;
+}
+.mapPinWrapper {
+  width: 266px;
+  border-radius: var(--br-xs);
+  height: 208px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+  position: relative;
+  background-image: url(/public/frame-675679952@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.jobOverwiew,
+.sideBar {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.jobOverwiew {
+  width: 306px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-azure);
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  padding: var(--padding-9xl) var(--padding-xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+}
+.sideBar {
+  height: 875px;
+  gap: var(--gap-21xl);
+}
+.crimeResponses,
+.infoBlockjobsSideBar,
+.sideBar {
+  display: flex;
+  justify-content: flex-start;
+}
+.infoBlockjobsSideBar {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-41xl) var(--padding-53xl);
+  gap: var(--gap-5xl);
+}
+.crimeResponses {
+  position: relative;
+  background-color: var(--default-white);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--default-black);
+  font-family: var(--h1-30px-sb);
+}

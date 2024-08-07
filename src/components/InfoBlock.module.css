@@ -1,0 +1,111 @@
+.imgIcon {
+  width: 550px;
+  border-radius: var(--br-xl);
+  height: 514px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.enhancingCommunitySafety {
+  width: 531px;
+  position: relative;
+  display: inline-block;
+}
+.inOurShared {
+  width: 600px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  color: var(--color-gray-300);
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.learnMore {
+  position: relative;
+  text-decoration: underline;
+  font-weight: 600;
+}
+.buttons,
+.imgTextButtons,
+.textButtons {
+  display: flex;
+  justify-content: flex-start;
+}
+.buttons {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-base);
+  color: var(--color-darkcyan-100);
+}
+.imgTextButtons,
+.textButtons {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-41xl);
+}
+.imgTextButtons {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-67xl);
+}
+.b,
+.crimeReporting {
+  position: relative;
+}
+.crimeReporting {
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  color: var(--default-black);
+}
+.text1,
+.text2,
+.text3 {
+  width: 201px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+}
+.text2,
+.text3 {
+  width: 155px;
+}
+.text3 {
+  width: 152px;
+}
+.counter {
+  width: 1236px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkcyan-100);
+}
+.infoBlock {
+  align-self: stretch;
+  background-color: var(--default-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-101xl) var(--padding-53xl) var(--padding-41xl);
+  gap: var(--gap-67xl);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--default-black);
+  font-family: var(--h1-30px-sb);
+}

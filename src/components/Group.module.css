@@ -1,0 +1,190 @@
+.rectangle {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--default-white);
+  border: 2px solid var(--color-darkcyan-100);
+  box-sizing: border-box;
+  height: 36px;
+}
+.text {
+  position: absolute;
+  top: 9px;
+  left: 8px;
+  font-family: var(--font-font-awesome-5-free);
+  color: var(--text-default);
+}
+.rightIcon {
+  top: 6px;
+  right: 8px;
+  font-size: var(--font-size-base);
+  text-align: right;
+  display: none;
+}
+.div,
+.leftIcon,
+.rightIcon {
+  position: absolute;
+}
+.leftIcon {
+  top: 6px;
+  left: 8px;
+  font-size: var(--font-size-base);
+  display: none;
+}
+.div {
+  top: 9px;
+  left: 127px;
+  font-family: var(--header-5);
+  color: var(--color-darkcyan-100);
+}
+.input05textfield01oneline01 {
+  position: absolute;
+  width: 100%;
+  top: 25px;
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.ellipse,
+.ellipse1 {
+  position: absolute;
+  top: 39px;
+  left: 32px;
+  border-radius: 50%;
+  background-color: var(--gray-6);
+  width: 8px;
+  height: 8px;
+}
+.ellipse1 {
+  left: 20px;
+}
+.password {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  line-height: 20px;
+  font-family: var(--header-5);
+  color: var(--gray-6);
+}
+.ellipse2,
+.ellipse3,
+.ellipse4,
+.ellipse5,
+.ellipse6,
+.ellipse7,
+.ellipse8,
+.ellipse9 {
+  position: absolute;
+  top: 39px;
+  left: 8px;
+  border-radius: 50%;
+  background-color: var(--gray-6);
+  width: 8px;
+  height: 8px;
+}
+.ellipse3,
+.ellipse4,
+.ellipse5,
+.ellipse6,
+.ellipse7,
+.ellipse8,
+.ellipse9 {
+  left: 116px;
+}
+.ellipse4,
+.ellipse5,
+.ellipse6,
+.ellipse7,
+.ellipse8,
+.ellipse9 {
+  left: 104px;
+}
+.ellipse5,
+.ellipse6,
+.ellipse7,
+.ellipse8,
+.ellipse9 {
+  left: 92px;
+}
+.ellipse6,
+.ellipse7,
+.ellipse8,
+.ellipse9 {
+  left: 80px;
+}
+.ellipse7,
+.ellipse8,
+.ellipse9 {
+  left: 44px;
+}
+.ellipse8,
+.ellipse9 {
+  left: 56px;
+}
+.ellipse9 {
+  left: 68px;
+}
+.input05textfield01oneline02 {
+  position: absolute;
+  top: 173px;
+  left: 0;
+  width: 300px;
+  height: 61px;
+  font-family: var(--h1-30px-sb);
+}
+.logIn,
+.rectangle1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 36px;
+}
+.rectangle1 {
+  right: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkcyan-100);
+}
+.logIn {
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input01basicbutton01regular {
+  position: absolute;
+  top: 266px;
+  left: 0;
+  width: 300px;
+  height: 36px;
+  mix-blend-mode: normal;
+  text-align: center;
+  color: var(--default-white);
+}
+.group,
+.logInYour {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logInYour {
+  font-size: var(--header-2-size);
+  line-height: 36px;
+  display: flex;
+  color: var(--gray-6);
+  align-items: center;
+  width: 276px;
+  height: 32px;
+}
+.group {
+  width: 300px;
+  height: 302px;
+  text-align: left;
+  font-size: var(--h2-size);
+  color: var(--text-subtle-hint);
+  font-family: var(--header-5);
+}

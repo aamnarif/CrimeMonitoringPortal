@@ -1,0 +1,150 @@
+.logoChild {
+  width: 59.8px;
+  position: relative;
+  height: 41.8px;
+  object-fit: cover;
+}
+.crimePortal {
+  width: 130px;
+  position: relative;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xl);
+}
+.home {
+  position: relative;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs);
+  cursor: pointer;
+}
+.crimeReports1 {
+  position: relative;
+  font-weight: 600;
+}
+.text2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs);
+}
+.crimeResponses {
+  width: 145px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  opacity: 0.6;
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.login {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.buttons,
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttons {
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.header {
+  width: 1296px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+}
+.crimeReports2 {
+  position: relative;
+  font-size: var(--font-size-41xl);
+  text-align: center;
+}
+.hero {
+  width: 1440px;
+  height: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-147xl) var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  background-image: url(/public/hero@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.crimeStatistics {
+  position: relative;
+}
+.ourPortalDelivers {
+  width: 703px;
+  position: relative;
+  font-size: var(--font-size-base);
+  text-align: left;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 12px;
+  flex-shrink: 0;
+}
+.text5 {
+  gap: var(--gap-21xl);
+}
+.crimeReports,
+.text5,
+.topCompany {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.topCompany {
+  width: 1440px;
+  background-color: var(--color-azure);
+  height: 1026px;
+  padding: var(--padding-41xl) 0 var(--padding-101xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--default-black);
+}
+.crimeReports {
+  position: relative;
+  background-color: var(--default-white);
+  width: 100%;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--default-white);
+  font-family: var(--h1-30px-sb);
+}

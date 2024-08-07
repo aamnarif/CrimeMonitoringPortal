@@ -1,0 +1,24 @@
+.cards,
+.cards1,
+.sideBarCarsBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.cards1 {
+  align-self: stretch;
+  align-items: center;
+  gap: var(--gap-5xl);
+}
+.cards,
+.sideBarCarsBanner {
+  width: 1296px;
+  align-items: flex-end;
+}
+.sideBarCarsBanner {
+  width: 1440px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-41xl) var(--padding-53xl) var(--padding-101xl);
+  box-sizing: border-box;
+}

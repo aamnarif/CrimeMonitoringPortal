@@ -1,0 +1,98 @@
+.news {
+  position: relative;
+  font-weight: 600;
+}
+.badge {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkcyan-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xl);
+}
+.feb,
+.imgBadge {
+  position: relative;
+  overflow: hidden;
+}
+.imgBadge {
+  width: 636px;
+  border-radius: var(--br-xl);
+  height: 400px;
+  flex-shrink: 0;
+  background-image: url(/public/img-badge@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.feb {
+  line-height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cctvFootageThief {
+  margin: 0;
+}
+.cctvFootageThiefContainer {
+  width: 636px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 32px;
+  text-transform: capitalize;
+  font-weight: 600;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.arrowRightIcon,
+.readMore {
+  position: relative;
+  overflow: hidden;
+}
+.readMore {
+  line-height: 24px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.arrowRightIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.card,
+.textIcon,
+.textIcon1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: var(--color-darkcyan-100);
+}
+.card,
+.textIcon {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xl);
+  color: var(--default-black);
+}
+.card {
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--default-white);
+  font-family: var(--h2);
+}
