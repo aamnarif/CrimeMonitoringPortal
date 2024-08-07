@@ -1,0 +1,28 @@
+.phone-icon {
+  width: 28px;
+  position: relative;
+  height: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.call-for-inquiry,
+.div9 {
+  position: relative;
+  line-height: 24px;
+}
+.div9 {
+  font-size: var(--font-size-xl);
+  font-weight: 500;
+}
+.icon-text11 {
+  width: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--default-black);
+  font-family: var(--body-input-14px-sb);
+}

@@ -1,0 +1,112 @@
+.logo-child1 {
+  width: 59.8px;
+  position: relative;
+  height: 41.8px;
+  object-fit: cover;
+}
+.crime-portal3 {
+  width: 130px;
+  position: relative;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.logo3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xl);
+}
+.home4 {
+  position: relative;
+  font-weight: 600;
+  opacity: 0.6;
+}
+.text55 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs);
+  cursor: pointer;
+}
+.about-us4 {
+  position: relative;
+  font-weight: 500;
+  opacity: 0.6;
+}
+.crime-responses4 {
+  width: 145px;
+  display: inline-block;
+  flex-shrink: 0;
+  opacity: 0.6;
+}
+.contact-us4,
+.crime-responses4 {
+  position: relative;
+  font-weight: 500;
+}
+.menu2,
+.text59 {
+  display: flex;
+  flex-direction: row;
+}
+.text59 {
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-xs);
+}
+.menu2 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.login2 {
+  position: relative;
+  font-weight: 500;
+  cursor: pointer;
+}
+.buttons3,
+.header2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.buttons3 {
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.header2 {
+  width: 1296px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: var(--padding-xl) 0;
+  box-sizing: border-box;
+}
+.contact-us5 {
+  position: relative;
+  font-size: var(--font-size-41xl);
+  text-align: center;
+}
+.hero2 {
+  width: 1440px;
+  height: 322px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-147xl) var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-41xl);
+  background-image: url(/public/hero@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--default-white);
+  font-family: var(--body-input-14px-sb);
+}

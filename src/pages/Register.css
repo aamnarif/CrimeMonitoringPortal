@@ -1,0 +1,275 @@
+.terms-and-conditions2 {
+  line-height: 18px;
+}
+.span4 {
+  line-height: 16px;
+  color: var(--gray-5);
+}
+.terms-and-conditions-container2 {
+  position: absolute;
+  top: 726px;
+  left: 994px;
+}
+.rectangle5 {
+  width: 100%;
+  right: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-darkcyan-100);
+}
+.input01basicbutton01regular1,
+.rectangle5,
+.register1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 36px;
+}
+.register1 {
+  width: 100%;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input01basicbutton01regular1 {
+  width: 300px;
+  mix-blend-mode: normal;
+}
+.input01basicbutton01regular-wrapper {
+  position: absolute;
+  top: 350px;
+  left: 0;
+  width: 300px;
+  height: 36px;
+}
+.register-your-account {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 138px);
+  font-size: var(--header-2-size);
+  line-height: 36px;
+  display: flex;
+  color: var(--gray-6);
+  text-align: left;
+  align-items: center;
+  width: 276px;
+  height: 32px;
+}
+.group2,
+.log-in6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 386px;
+}
+.log-in6 {
+  top: 186px;
+  left: 880px;
+  text-align: center;
+  font-size: var(--h2-size);
+  color: var(--default-white);
+}
+.sign-in-image-child1,
+.vector-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.sign-in-image-child1 {
+  height: 85.64%;
+  width: 68.53%;
+  top: 7.16%;
+  right: 1.88%;
+  bottom: 7.2%;
+  left: 29.59%;
+  object-fit: contain;
+}
+.group-child8,
+.sign-in-image2 {
+  position: absolute;
+  height: 100%;
+  width: 58.13%;
+  top: 0;
+  right: 41.88%;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}
+.group-child8 {
+  height: 58.1%;
+  width: 81.42%;
+  right: 9.29%;
+  bottom: 41.9%;
+  left: 9.29%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.group-icon11,
+.group-icon12,
+.group-icon13,
+.group-icon14,
+.group-icon15 {
+  position: absolute;
+  height: 100%;
+  width: 14.06%;
+  top: 0;
+  right: 85.94%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-icon12,
+.group-icon13,
+.group-icon14,
+.group-icon15 {
+  height: 97.28%;
+  width: 14.71%;
+  right: 61.81%;
+  bottom: 2.72%;
+  left: 23.48%;
+}
+.group-icon13,
+.group-icon14,
+.group-icon15 {
+  width: 3.87%;
+  right: 48.52%;
+  left: 47.61%;
+}
+.group-icon14,
+.group-icon15 {
+  width: 19.74%;
+  right: 19.61%;
+  left: 60.65%;
+}
+.group-icon15 {
+  width: 10.58%;
+  right: 0;
+  left: 89.42%;
+}
+.group-child9,
+.group-parent3 {
+  position: absolute;
+  height: 19.37%;
+  width: 100%;
+  top: 69.83%;
+  right: 0;
+  bottom: 10.8%;
+  left: 0;
+}
+.group-child9 {
+  height: 5.4%;
+  width: 94.06%;
+  top: 94.6%;
+  right: 3.1%;
+  bottom: 0;
+  left: 2.84%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-parent2 {
+  position: absolute;
+  height: 9.37%;
+  width: 5.38%;
+  top: 5.21%;
+  right: 3.77%;
+  bottom: 85.42%;
+  left: 90.85%;
+}
+.rectangle6 {
+  position: absolute;
+  width: calc(100% + 2px);
+  top: -1px;
+  right: -1px;
+  left: -1px;
+  border-radius: var(--br-9xs);
+  background-color: var(--default-white);
+  border: 2px solid var(--pink);
+  box-sizing: border-box;
+  height: 38px;
+}
+.adkfj,
+.please-use-format {
+  position: absolute;
+  font-family: var(--header-5);
+}
+.adkfj {
+  top: 9px;
+  left: 8px;
+  font-size: var(--h2-size);
+  color: var(--text-default);
+}
+.please-use-format {
+  width: calc(100% - 16px);
+  top: 44px;
+  left: 16px;
+  display: inline-block;
+}
+.exclamation-circle {
+  position: absolute;
+  top: 42px;
+  left: 0;
+  font-weight: 900;
+  color: var(--pink);
+}
+.left-icon4,
+.right-icon4 {
+  position: absolute;
+  top: 6px;
+  font-size: var(--font-size-base);
+  display: none;
+}
+.right-icon4 {
+  right: 8px;
+  text-align: right;
+}
+.left-icon4 {
+  left: 8px;
+}
+.passwords-do-not-match,
+.plese-use-format-usernamebank,
+.required-field {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 59px;
+}
+.passwords-do-not-match,
+.required-field {
+  top: 100px;
+}
+.passwords-do-not-match {
+  top: 197px;
+}
+.plese-use-format-usernamebank-parent {
+  position: absolute;
+  top: 269px;
+  left: 880px;
+  width: 300px;
+  height: 256px;
+  color: var(--text-subtle-hint);
+  font-family: var(--body-input-14px-sb);
+}
+.register {
+  width: 100%;
+  position: relative;
+  background-color: var(--default-white);
+  height: 810px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--body-small-12px-r-size);
+  color: var(--color-darkcyan-100);
+  font-family: var(--header-5);
+}

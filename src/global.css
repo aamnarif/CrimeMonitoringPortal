@@ -10,7 +10,7 @@ body {
 :root {
   /* fonts */
   --h2: Inter;
-  --h1-30px-sb: Poppins;
+  --body-input-14px-sb: Poppins;
   --header-5: Lato;
   --font-font-awesome-5-free: "Font Awesome 5 Free";
   --font-figtree: Figtree;
@@ -23,7 +23,6 @@ body {
   --body-small-12px-r-size: 12px;
   --header-2-size: 28px;
   --font-size-5xl: 24px;
-  --font-size-16xl: 35px;
   --font-size-31xl: 50px;
   --font-size-41xl: 60px;
   --font-size-mini: 15px;
@@ -32,7 +31,6 @@ body {
   --h3-22px-sb-size: 22px;
   --body-label-8px-r-size: 8px;
   --font-size-21xl: 40px;
-  --font-size-26xl: 45px;
 
   /* Colors */
   --default-white: #fff;
@@ -48,8 +46,6 @@ body {
   --color-gray-500: rgba(255, 255, 255, 0.6);
   --color-gray-600: rgba(255, 255, 255, 0.5);
   --color-darkcyan-100: #309689;
-  --color-darkcyan-200: #3a9086;
-  --color-darkcyan-300: rgba(48, 150, 137, 0.27);
   --color-darkcyan-400: rgba(48, 150, 137, 0.1);
   --color-azure: #ebf5f4;
   --gray-500: #adb5bd;
@@ -64,12 +60,9 @@ body {
   --gray-6: #333;
   --color-darkslategray-100: #054941;
   --color-darkslategray-200: #024232;
-  --color-darkslategray-300: #03342e;
   --color-darkslategray-400: rgba(60, 60, 67, 0.6);
   --primary-primary-100: #ad7bff;
   --accent-accent-p-50: #ffa699;
-  --color-teal-100: #027062;
-  --color-teal-200: rgba(39, 126, 115, 0.25);
   --color-teal-300: rgba(7, 114, 101, 0.44);
   --grey-50: #d0d1d2;
   --separator-light-default: #ece9f1;
@@ -91,13 +84,9 @@ body {
   --gap-13xl: 32px;
   --gap-mini: 15px;
   --gap-9xs: 4px;
-  --gap-31xl: 50px;
-  --gap-11xl: 30px;
   --gap-9xl: 28px;
   --gap-67xl: 86px;
   --gap-10xl: 29px;
-  --gap-81xl: 100px;
-  --gap-45xl: 64px;
 
   /* Paddings */
   --padding-81xl: 100px;
@@ -116,7 +105,6 @@ body {
   --padding-xs: 12px;
   --padding-9xl: 28px;
   --padding-101xl: 120px;
-  --padding-9xs: 4px;
 
   /* Border radiuses */
   --br-xs: 12px;
@@ -126,7 +114,6 @@ body {
   --br-base: 16px;
   --br-980xl: 999px;
   --br-81xl: 100px;
-  --br-3xs: 10px;
   --br-9xs: 4px;
   --br-31xl: 50px;
   --br-159xl: 178px;
